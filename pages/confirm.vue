@@ -3,8 +3,6 @@ import { useRedirectIfAuthenticated } from '~/composables/useRedirectIfAuthentic
 
 useRedirectIfAuthenticated()
 
-console.log(window.location.href);
-
 
 </script>
 

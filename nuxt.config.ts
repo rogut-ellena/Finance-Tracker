@@ -7,5 +7,11 @@ export default defineNuxtConfig({
   supabase: {
     redirect: true,  
   },
+  runtimeConfig: {
+    public: {
+      baseUrl: process.env.NUXT_PUBLIC_BASE_URL || 'http://localhost:3000',
+    },
+  },
+  
  
 })

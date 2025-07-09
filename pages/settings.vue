@@ -1,11 +1,8 @@
 <script setup lang="ts">
 import type { NavigationMenuItem } from '@nuxt/ui'
-const val = ref(0)
 
 const items = ref<NavigationMenuItem[][]>([
     [
-
-
         {
             label: 'Profile',
             content: 'Manage your profile settings',
@@ -22,7 +19,7 @@ const items = ref<NavigationMenuItem[][]>([
             icon: 'i-heroicons-cog-8-tooth-20-solid',
             to: '/settings/settings'
         }
-    ]
+    ],
 ])
 </script>
 

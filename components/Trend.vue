@@ -9,7 +9,7 @@ const props = defineProps({
     loading: Boolean,
 })
 
-const { amount } = toRefs(props)
+const amount = computed(() => props.amount)
 
 const { currency } = useCurrency(amount)
 
