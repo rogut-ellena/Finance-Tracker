@@ -8,7 +8,6 @@ const { url } = useAvatarUrl()
 const uploading = ref(false)
 const fileInput = ref() // Reference to an input with ref="fileInput" attribute
 
-console.log(user.value, 'user metadata full name')
 
 const saveAvatar = async () => {
     // 1. Get the uploaded file

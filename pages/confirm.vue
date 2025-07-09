@@ -2,6 +2,10 @@
 import { useRedirectIfAuthenticated } from '~/composables/useRedirectIfAuthenticated';
 
 useRedirectIfAuthenticated()
+
+console.log(window.location.href);
+
+
 </script>
 
 <template>

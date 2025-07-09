@@ -29,8 +29,6 @@ const { refresh: refreshPrevious, transactions: {
 } } = useFetchTransactions(previous)
 
 await refreshPrevious()
-console.log("grouped: ", byDate, "currentViewValue: ", currentViewValue, "current:", current, "previous:", previous)
-
 
 //await Promise.all([refresh(), refreshPrevious()])
 

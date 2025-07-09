@@ -65,7 +65,8 @@ const handleLogin = async () => {
         <div class="text-center">
             <p class="mb-4">We have sent an email to <strong>{{ email }}</strong> with a link to sign in.</p>
             <p>
-                <strong>Please check your email to complete the login process.</strong>
+                <strong>Important: The link will expire in 5 minutes. Please check your email to complete the login
+                    process.</strong>
             </p>
 
         </div>
